@@ -2,7 +2,22 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-3 col-xs-offset-3">
+            <div class="input-group number-spinner">
+                <span class="input-group-btn data-dwn">
+                    <button class="btn btn-default btn-danger" data-dir="dwn">-</button>
+                </span>
+                <input type="text" class="form-control text-center" value="1" min="0" max="1000" id="chiffre" name="chiffre">
+                <span class="input-group-btn data-up">
+                    <button class="btn btn-default btn-success" data-dir="up">+</button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <br />
+    <button type="button" class="btn btn-primary" id="valider" name="valider">Valider</button>
+
+</div>
 </div>
