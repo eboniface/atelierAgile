@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nordi\\Desktop\\Cours\\B3\\MethodeAgile\\atelierAgile\\MethodesAgile\\MethodesAgile.csproj": {}
+    "E:\\projetcsharp\\methodesAgiles\\MethodesAgile\\MethodesAgile\\MethodesAgile.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nordi\\Desktop\\Cours\\B3\\MethodeAgile\\atelierAgile\\MethodesAgile\\MethodesAgile.csproj": {
+    "E:\\projetcsharp\\methodesAgiles\\MethodesAgile\\MethodesAgile\\MethodesAgile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nordi\\Desktop\\Cours\\B3\\MethodeAgile\\atelierAgile\\MethodesAgile\\MethodesAgile.csproj",
+        "projectUniqueName": "E:\\projetcsharp\\methodesAgiles\\MethodesAgile\\MethodesAgile\\MethodesAgile.csproj",
         "projectName": "MethodesAgile",
-        "projectPath": "C:\\Users\\nordi\\Desktop\\Cours\\B3\\MethodeAgile\\atelierAgile\\MethodesAgile\\MethodesAgile.csproj",
-        "packagesPath": "C:\\Users\\nordi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nordi\\Desktop\\Cours\\B3\\MethodeAgile\\atelierAgile\\MethodesAgile\\obj\\",
+        "projectPath": "E:\\projetcsharp\\methodesAgiles\\MethodesAgile\\MethodesAgile\\MethodesAgile.csproj",
+        "packagesPath": "C:\\Users\\edbon\\.nuget\\packages\\",
+        "outputPath": "E:\\projetcsharp\\methodesAgiles\\MethodesAgile\\MethodesAgile\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nordi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\edbon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -26,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -61,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
