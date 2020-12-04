@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projetcsharp\\methodesAgiles\\MethodesAgile\\MethodesAgile\\MethodesAgile.csproj": {}
+    "C:\\Users\\Hugo\\Source\\Repos\\atelierAgile\\MethodesAgile\\MethodesAgile.csproj": {}
   },
   "projects": {
-    "E:\\projetcsharp\\methodesAgiles\\MethodesAgile\\MethodesAgile\\MethodesAgile.csproj": {
+    "C:\\Users\\Hugo\\Source\\Repos\\atelierAgile\\MethodesAgile\\MethodesAgile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projetcsharp\\methodesAgiles\\MethodesAgile\\MethodesAgile\\MethodesAgile.csproj",
+        "projectUniqueName": "C:\\Users\\Hugo\\Source\\Repos\\atelierAgile\\MethodesAgile\\MethodesAgile.csproj",
         "projectName": "MethodesAgile",
-        "projectPath": "E:\\projetcsharp\\methodesAgiles\\MethodesAgile\\MethodesAgile\\MethodesAgile.csproj",
-        "packagesPath": "C:\\Users\\edbon\\.nuget\\packages\\",
-        "outputPath": "E:\\projetcsharp\\methodesAgiles\\MethodesAgile\\MethodesAgile\\obj\\",
+        "projectPath": "C:\\Users\\Hugo\\Source\\Repos\\atelierAgile\\MethodesAgile\\MethodesAgile.csproj",
+        "packagesPath": "C:\\Users\\Hugo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hugo\\Source\\Repos\\atelierAgile\\MethodesAgile\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\edbon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Hugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -43,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
